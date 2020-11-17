@@ -1,0 +1,137 @@
+/*CLASSes */
+/* background style */
+.background-style {
+background-image: url("./images/background.png");
+background-size: contain;
+  border: solid;
+  border-color: rgb(0, 230, 225);
+  border-width: 5px;
+
+}
+
+/* colored box around words and images */
+.column-style {
+background-color: rgb(190,190,190);
+margin-right: 30px;
+margin-left: 30px;
+margin-bottom: 30px;
+border-radius: 10px;
+}
+
+/* image style */
+.image-style {
+  width: 250px;
+  height: 300px;
+  border: double;
+  border-color: rgb(0, 230, 225);
+  border-radius: 10px;
+}
+
+/* group of paragraphs*/
+.row {
+  display: flex;
+}
+
+/* groups of info*/
+.column-image {
+  padding: 40px;
+  padding-top: 30px;
+  margin-top: 50px;
+}
+
+/* header style */
+.header-style {
+  font-size: 25px;
+  color: rgb(0, 230, 225);
+  border: solid;
+  border-width: 5px;
+  background: rgb(2, 50, 50);
+  padding: 25px;
+}
+
+/*NAVIGATION CSS */
+/* navigation */
+.nav {
+  display: inline-block;
+  position: relative;
+  font-size: 20px;
+  margin-left: 1px;
+}
+
+/*dropdown nav*/
+.nav-hidden {
+  display: none;
+  position: absolute;
+  background-color: rgb(2, 70, 70);
+  border: solid;
+  border-width: thin;
+  min-width: 360px;
+  z-index: 1;
+}
+
+.nav:hover .nav-hidden {
+  display: block;
+}
+
+/*IDs */
+/* title format */
+#title-words {
+  text-align: center;
+  margin-top: -60px;
+  text-shadow: 3px 3px rgb(0, 0, 0);
+}
+
+/* text by images */
+#text-style {
+  font-size: 20px;
+  margin-left: 30px;
+  text-shadow: 1px 1px rgb(130, 130, 130);
+
+}
+
+/* words under header*/
+#header-words {
+  font-size: 26px;
+  color: rgb(2, 153, 153);
+  text-shadow: 2px 2px rgb(0, 0, 0);
+  text-align: center;
+  margin: 10px;
+}
+
+/* the word "filter" */
+#filter-color {
+  color: rgb(2, 153, 153);
+  text-shadow: 3px 3px rgb(0, 0, 0);
+}
+
+/* words under header */
+#comment-words {
+  font-size: 25px;
+  color: rgb(0, 230, 225);
+  text-shadow: 2px 2px rgb(0, 0, 0);
+  text-align: center;
+  margin: 20px;
+}
+
+#media-tag {
+  font-size: 20px;
+  color: rgb(2, 253, 253);
+}
+
+/* STYLEs */
+/* links */
+a: hover {
+  color: rgb(0, 0, 0);
+}
+
+a {
+  color: rgb(2, 153, 153);
+}
+
+a: visted {
+  color: rgb(2, 153, 153)
+}
+
+hr {
+  border: 1px solid rgb(0, 230, 225);
+}
